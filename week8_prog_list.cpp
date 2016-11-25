@@ -19,7 +19,13 @@ int main(){
     for(int i = 0; i < ncmd; i++){
         cin >> cmd;
         cout << cmd << endl;
-        //switch()
+        switch(cmd){
+            case string("new"):{
+                cout << "new done";
+                break;
+            default: break;
+            }
+        }
     }
     
     return 0;
