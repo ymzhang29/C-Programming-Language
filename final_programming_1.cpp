@@ -3,8 +3,8 @@
 using namespace std;
 // 在此处补充你的代码
 ostream & operator<<(ostream & os, string (*p)()){
-    cout << p();
-    return cout;
+    os << p();
+    return os;
 }
 ostream & operator<<(ostream & os, int (*p)()){
     cout << p();
