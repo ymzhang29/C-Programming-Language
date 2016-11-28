@@ -31,12 +31,13 @@ Student MyFind(map<int, Info> & mp, int n){
     map<int, Info>::iterator it;
     it = mp.find(n);
     Student st(it->first, it->second.name, it->second.score);
+    
+    //Student st();?????????????
     //st.id = it->first;
     //st.name = it->second.name;
     //st.score = it->second.score;
     return st;
 }
-
 int main()
 {
 	map<int,Info>  mp;
